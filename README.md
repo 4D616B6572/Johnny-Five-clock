@@ -1,5 +1,4 @@
-
-hnny-Five servo clock
+#Johnny-Five servo clock
 **A firmware project using ***nodejs*** to implement a servo motor clock**
 
 *Artwork by [Ryan](https://github.com/4D616B6572)*
