@@ -1,4 +1,5 @@
-# Johnny-Five servo clock
+
+hnny-Five servo clock
 **A firmware project using ***nodejs*** to implement a servo motor clock**
 
 *Artwork by [Ryan](https://github.com/4D616B6572)*
@@ -20,9 +21,15 @@ this project is just for fun, cause i really want to try build something based o
 cd Johnny-Five clock/
 node strobe.js
 ```
+3. start the sr function in REPL
+*(after run the strobe.js script, it will automatically enter the REPL env)*
+```zsh
+sr() // must run this function; otherwise, it won't work
+```
 
 ## Contributing
 All contribution is warmly welcome.
 
 ## Lisense
 MIT
+

@@ -39,7 +39,7 @@ board.on("ready", function () {
     // Create an Led on pin 13
     var led = new five.Led(13);
     led.on();
-    var servo = [];
+    let servo = [];
     for (var i = 5; i <= 11; i++) {
         servo.push(new five.Servo({
             pin: i,
@@ -48,9 +48,11 @@ board.on("ready", function () {
     }
     // this is a test code
     // let servo = new five.Servo({
-    //     pin: 6,
+    //     pin: 5,
     //     startAt: 0
     // })
+    // servo.to(90, 500, 10);
+    // servo.to(0, 500, 10);
     servo.filter((element) => { // initial value
         element.to(90, 500, 10);
         element.to(0, 500, 10);
